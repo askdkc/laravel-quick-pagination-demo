@@ -1,6 +1,24 @@
 # Laravel Quick Pagination Demo
 
-A demo application for comparing Laravel's standard `paginate(50)` with `quickPaginate(50)` from `askdkc/laravel-quick-paginator` against 5 million dummy post records.
+### English
+
+This is a demo application for the `askdkc/laravel-quick-paginator` package.
+
+It compares Laravel's standard `paginate(50)` with `quickPaginate(50)` using 5 million dummy post records.
+
+Package:
+https://packagist.org/packages/askdkc/laravel-quick-paginator
+
+---
+
+### 日本語
+
+これは `askdkc/laravel-quick-paginator` パッケージのデモアプリケーションです。
+
+500万件のダミー投稿データを使用し、Laravel標準の `paginate(50)` と `quickPaginate(50)` のパフォーマンスを比較できます。
+
+パッケージ:
+https://packagist.org/packages/askdkc/laravel-quick-paginator
 
 ## English
 
