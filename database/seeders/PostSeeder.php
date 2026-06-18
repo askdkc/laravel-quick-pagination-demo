@@ -24,12 +24,12 @@ class PostSeeder extends Seeder
         $remainingPosts = max(0, self::TargetCount - $existingPosts);
 
         if ($remainingPosts === 0) {
-            $this->command?->info('The posts table already has at least 5,000,000 records.');
+            $this->command->info('The posts table already has at least 5,000,000 records.');
 
             return;
         }
 
-        $this->command?->info("Creating {$remainingPosts} posts...");
+        $this->command->info("Creating {$remainingPosts} posts...");
 
         $now = now();
 
@@ -49,9 +49,9 @@ class PostSeeder extends Seeder
                 ];
             }
 
-            DB::table((new Post())->getTable())->insert($posts);
+            DB::table((new Post)->getTable())->insert($posts);
 
-            $this->command?->info('Inserted '.min($existingPosts + $offset + $recordsInChunk, self::TargetCount).' / '.self::TargetCount.' posts.');
+            $this->command->info('Inserted '.min($existingPosts + $offset + $recordsInChunk, self::TargetCount).' / '.self::TargetCount.' posts.');
         }
     }
 }
