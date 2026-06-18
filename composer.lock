@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9273fada4bdab8ee374f77829522b29b",
+    "content-hash": "3ef8cfa732261b48059053625fb66879",
     "packages": [
         {
             "name": "askdkc/laravel-quick-paginator",
@@ -11391,7 +11391,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.3"
+        "php": "^8.4.1"
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"

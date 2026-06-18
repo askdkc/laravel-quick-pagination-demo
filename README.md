@@ -32,7 +32,7 @@ In this sample run, Quick Pagination completed in **264.69 ms**, while normal pa
 
 ### Requirements
 
-- PHP 8.3 or higher
+- PHP 8.4.1 or higher
 - Composer
 - Node.js and npm
 - SQLite
@@ -76,7 +76,7 @@ Open the demo:
 
 ### 必要なもの
 
-- PHP 8.3 以上
+- PHP 8.4.1 以上
 - Composer
 - Node.js / npm
 - SQLite
